@@ -12,7 +12,6 @@ const App = () => {
         value={name}
         onChange={e => setName(e.target.value)}
       />
-      {/* Only display greeting if input is NOT strictly empty */}
       {name !== '' && <p>Hello, {name}!</p>}
     </div>
   );
